@@ -1,0 +1,15 @@
+{
+	"name": "SourceDataset_cfp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "RestService1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": "https://jsonplaceholder.typicode.com/todos/1"
+		},
+		"schema": []
+	}
+}
