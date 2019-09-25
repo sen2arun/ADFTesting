@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=utf-8
+Content-Length: length
+
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomerHourTrafficDate xmlns="http://www.trafnet.com/Services/DataService">
+  <CustomerHourTrafficDate>
+    <StoreCode>string</StoreCode>
+    <Location>string</Location>
+    <PeriodEnding>dateTime</PeriodEnding>
+    <Ins>int</Ins>
+    <Outs>int</Outs>
+  </CustomerHourTrafficDate>
+  <CustomerHourTrafficDate>
+    <StoreCode>string</StoreCode>
+    <Location>string</Location>
+    <PeriodEnding>dateTime</PeriodEnding>
+    <Ins>int</Ins>
+    <Outs>int</Outs>
+  </CustomerHourTrafficDate>
+</ArrayOfCustomerHourTrafficDate>
